@@ -1,0 +1,110 @@
+
+/* 
+.text {
+    margin: auto;
+    display: inline-block;
+}
+
+.text {
+    margin: auto;
+    border-top: lightblue ;
+    border-left: darkblue;
+    border-right: orange;
+    border-bottom: lightseagreen;
+    border-bottom-width: 10px;
+    border-right-width: 10px ;
+    border-style: double;
+    display: flexbox;
+   text-align: center;
+    background-color: aquamarine;
+} */
+
+body {
+    width: 100%;      
+} 
+
+.container {
+    margin: auto;
+    width: 20%;
+}
+
+.text {
+    border-width: 10px;
+    border-color: blue green rebeccapurple yellow;
+    background-color: aquamarine;
+    border-style: groove;
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;  
+}
+
+.text p{
+    margin: 0;
+}
+
+.box {
+    box-sizing: border-box;
+    margin: auto;
+    text-align: center;
+}
+
+.box div{
+    width: 300px;
+    height: 250px;
+    display: inline-flex; 
+    margin: 50px;
+    padding: 15px;
+    border: 10px dotted darkgreen ;   
+    overflow: hidden;
+    
+}
+
+#one, #three{
+    position: relative;
+    top: 40px;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+    align-content: center;    
+}
+
+.textBox {
+    box-sizing: border-box;
+    margin: auto;
+    text-align: center;
+}
+.textBox div{
+    
+    display: inline-flex;
+    margin: 50px;
+    padding: 10px;
+}
+
+.textBox p {
+    background-color: darkgreen;
+    color: white;
+    font-weight: bold;
+}
+
+.textOneContainer {
+    border: 5px dashed black;
+}
+
+.textTwoContainer {
+    background-color: darkgreen;
+    outline: 5px dashed black;
+}
+
+.textTwo {
+    display: inline;
+    background-color: darkgreen;   
+}
+
+.textThreeContainer {
+    background-color: darkgreen;
+    border: 5px dashed black;
+}
+
+.textThree {
+    display:inline;    
+}
