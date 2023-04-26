@@ -1,0 +1,249 @@
+* {
+    box-sizing: border-box; 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: ghostwhite;
+    
+}
+
+.title {
+    font-size: 100px;
+    text-align: center;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}
+.title a {
+    text-decoration: none;
+    color: black;
+    text-shadow: 5px 5px 5px gray;
+}
+
+nav {
+    text-align: center;
+    height: 30px;
+    background-color: lightcoral;
+}
+
+nav a{
+    font-size: x-large;
+    margin: 10px;
+    color: black;
+    background-color: lightcoral;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+    text-shadow: none;
+}
+
+.blog {
+    padding: 10px 200px;
+    display: flex;
+    padding-bottom: 10px;
+    
+}
+
+.a h2 {
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+.section_posts {
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.a {
+    width: 100%;
+}
+
+.section_title {
+    justify-content: center;
+}
+
+.section_post {
+    border: 2px solid grey;
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+    margin: 20px 10px;
+    padding: 10px;
+    overflow: hidden;
+    
+    scrollbar-width: none;
+}
+
+img {
+    width: 100%;
+    height: 160px;
+}
+
+
+
+.section_post:hover {
+    background-color: rgb(241, 175, 175);
+    box-shadow: 5px 5px 5px lightgrey;
+}
+
+.section_post h3 {
+    font-size: 30px;
+    position: sticky;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.section_post p {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    line-clamp: 5;
+    text-overflow: ellipsis; /* <------ required */
+    white-space: nowrap; /* <---------- required */
+    overflow: hidden; /* <------------- required https://dirask.com/posts/CSS-cut-with-dots-overflowing-text-outside-element-DdN4zj */   
+}
+
+.sidebar {
+  width: 30%;
+  position: relative;
+}
+
+.sidebar h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.sidebar li {
+    border: 2px solid grey;
+    list-style-type: none;
+    border-radius: 15px;
+    margin: 30px;
+    padding: 10px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.sidebar img {
+    width: 120px;
+    float: left;
+    padding-right: 10px;
+}
+
+.sidebar p {
+    margin: 0;
+    overflow: hidden;
+    
+}
+
+footer {
+    width: 100%;
+    display: inline-flex;
+    padding: 0 400px;
+    justify-content: center;
+    background-color: rgb(119, 117, 117);
+}
+
+footer div {
+    width: 24%;
+    background-color: ghostwhite;
+    padding: 0 10px;
+}
+
+footer li {
+    list-style-type: none;
+    padding: 1px 0;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+footer p {
+    color: rgb(0, 0, 0);
+    font-size: large;
+    font-weight: bold;
+}
+
+#final {
+    font-size: large;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.637);
+}
+
+#final a {
+    color: rgba(255, 255, 255, 0.637);
+    padding: 0 10px;
+}
+
+@media all and (max-width:576px) {
+    h1 {
+        font-size: 23px;
+    }
+
+    h2 {
+        font-size: 20px;
+        margin: 5px 0px;
+    }
+
+    .blog {
+        padding: 5px 10px;
+        width: 100%;
+        display:block;
+    }
+
+    .section_posts {
+        justify-content: center;
+    }
+
+    .a {
+        width: 100%;
+    }
+
+    .sidebar {
+        width: 100%;
+        display: block;
+        
+    }
+
+    .sidebar  ul {
+        padding: 0;
+        display: table;
+        margin: 0 auto;
+    }
+/*https://stackoverflow.com/questions/19443013/how-to-center-an-unordered-list*/
+
+    footer {
+        padding: 0;
+    }
+}
+
+@media all and (max-width:480px) {
+    nav a {
+        margin: 5px;
+    }
+
+    #final {
+        display: block;
+        position: relative;
+        text-align:center ;
+    }
+
+    #final a {
+        display: block;
+        text-align:center ;
+    }
+   
+}
