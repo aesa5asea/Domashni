@@ -1,0 +1,4 @@
+Write a program which tells the number of days 
+in a month. For example: if the variable value 
+is February, the output in the console would 
+be: February has 28 days.

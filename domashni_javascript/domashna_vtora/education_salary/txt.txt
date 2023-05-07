@@ -1,0 +1,17 @@
+    Write a switch statement to set 
+    the average salary of a person 
+    based on their type of completed 
+    education. 
+    
+    The salary would be a variable. 
+    
+    The higher the value of the 
+    variable (salary), the higher the diploma/degree. 
+
+   - no high school diploma
+   - a high school diploma
+   - an Associate's degree
+   - a Bachelor's degree
+   - a Master's degree
+   - a Professional degree
+   - a Doctoral degree

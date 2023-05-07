@@ -1,0 +1,20 @@
+Write a program that outputs in the
+console what kind of a band is playing 
+music based on the number of musicians. 
+
+For example: if the variable value is 4, 
+the output in the console would be: 
+The band is a quartet.
+
+Number    Group name     Latin      Italian      Meaning
+ 1         solo         solus       solo        "alone"
+ 2          duo           duo        due        "two" - this is the Latin word
+ 3         trio          tres        tre        "three" - tres, but on the pattern of duo
+ 4        quartet       quarto    quartetto     "fourth" (as opposed to "four")
+ 5        quintet       quintus    quinto       "fifth"
+ 6        sextet         sex        sei         "six" - from the Latin (old English: sestet)
+ 7        septet        septem     sette        "seven" 
+ 8         octet         octo       otto        "eight"
+ 9         nonet        novem       nove        "nine"
+
+ https://www.liveabout.com/ensembles-2456707
