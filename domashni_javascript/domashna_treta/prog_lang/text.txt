@@ -1,0 +1,8 @@
+Write an array called prog_languages that has three objects. The objects should keep three properties (name: string, founder: object, founded: year). The founder property is also an object that stores the name and e-mail values of the founder (these don't have to be real values, you can make them up... or Google them).  
+
+Output the whole array in the console
+In another line, output only the first item in the array
+In another line, output the e-mail of the founder of the second item in the array
+Add one item (object) to the beginning of the array
+Add one item (object) to the end of the array
+Output the changes
