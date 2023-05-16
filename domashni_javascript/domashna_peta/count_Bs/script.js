@@ -12,3 +12,5 @@ function countLetters(str) {
     }
     return count;
 }
+
+console.log(countLetters("AAbbbBBbA"));
