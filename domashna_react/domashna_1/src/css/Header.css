@@ -1,0 +1,15 @@
+a {
+  font-weight: 500;
+  color: beige;
+  padding: 0em 3em;
+}
+a:hover {
+  color: beige;
+}
+
+header {
+  margin-top: 2em;
+  text-align: center;
+  font-size: 2em;
+  background: none;
+}
