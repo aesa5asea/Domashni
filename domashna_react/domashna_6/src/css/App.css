@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: antiquewhite;
+}
+
+input[type="text"],
+button {
+  margin: 5px;
+}
+
+table {
+  background-color: whitesmoke;
+}
